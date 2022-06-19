@@ -214,6 +214,7 @@
   background-image: url("/styles/CAImgs/sectiontwoBG.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
