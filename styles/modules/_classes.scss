@@ -12,3 +12,26 @@
 .img-fluid {
     max-width: 100%;
 }
+.targetIcons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20vh;
+    .targetitem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 236px;
+        height: 245px;
+        flex-direction: column;
+        border: 1px solid $textWhite;
+        img {
+            width: 50%;
+        }
+        span {
+            margin-top: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            color: $textWhite;
+        }
+    }
+}
