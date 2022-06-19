@@ -1,3 +1,27 @@
-@import './modules/varibles';
-@import './modules/classes';
-@import './modules/reset';
+@import "./modules/varibles";
+@import "./modules/classes";
+@import "./modules/reset";
+
+.header {
+    background-color: $textWhite;
+    .Awardnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: calc(3.5rem + 1.5rem);
+        padding: 20px 0;
+        .award_nav{
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            align-items: center;
+            .award_items{
+                .award_links{
+                    color: $colortext;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
