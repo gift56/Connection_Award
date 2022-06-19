@@ -53,5 +53,61 @@
                 margin-top: 40px;
             }
         }
+        .searchNorminate {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .searchHere {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem;
+                margin-bottom: 15px;
+                .searchInput {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1.5rem;
+                    padding: 2px 16px;
+                    border-radius: 4px;
+                    border: 1px solid $inputPlaceholder;
+                    .searchIcon {
+                        display: flex;
+                    }
+                    .input-control {
+                        width: 40vw;
+                        padding: 14px 13px;
+                        font-size: 18px;
+                        color: $colortext;
+                        border: none !important;
+                        outline: none;
+                        &::placeholder {
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .search {
+                    .me {
+                        background-color: $loginColor;
+                        color: $textWhite;
+                        border: 1px solid $loginColor;
+                        padding: 14px 28px;
+                    }
+                }
+            }
+            .viewCart {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 9px;
+                .view{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: $colortext;
+                }
+            }
+        }
     }
 }

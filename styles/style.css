@@ -100,4 +100,105 @@
   text-align: center;
   margin-top: 40px;
 }
+
+.sectionOne .firstSection .searchNorminate {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  padding: 2px 16px;
+  border-radius: 4px;
+  border: 1px solid #bababa;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .searchIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control {
+  width: 40vw;
+  padding: 14px 13px;
+  font-size: 18px;
+  color: #0c0114;
+  border: none !important;
+  outline: none;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sectionOne .firstSection .searchNorminate .searchHere .search .me {
+  background-color: #3e0563;
+  color: #ffffff;
+  border: 1px solid #3e0563;
+  padding: 14px 28px;
+}
+
+.sectionOne .firstSection .searchNorminate .viewCart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+}
+
+.sectionOne .firstSection .searchNorminate .viewCart .view {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0c0114;
+}
 /*# sourceMappingURL=style.css.map */
