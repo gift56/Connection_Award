@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAGA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECJZ,KAAK;CDKZ",
+    "mappings": "",
     "sources": [
         "style.scss",
         "modules/_varibles.scss",
