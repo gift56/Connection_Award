@@ -257,9 +257,13 @@
   border: 1px solid #ffffff;
 }
 
+.sectiontwo .secondSection .targetIcons .targetitem img {
+  width: 50%;
+}
+
 .sectiontwo .secondSection .targetIcons .targetitem span {
   margin-top: 12px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #ffffff;
 }

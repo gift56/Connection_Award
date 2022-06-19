@@ -144,9 +144,12 @@
                 height: 245px;
                 flex-direction: column;
                 border: 1px solid $textWhite;
+                img{
+                    width: 50%;
+                }
                 span{
                     margin-top: 12px;
-                    font-size: 24px;
+                    font-size: 20px;
                     font-weight: 600;
                     color: $textWhite;
                 }
