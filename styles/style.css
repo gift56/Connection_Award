@@ -209,4 +209,18 @@
   font-weight: 400;
   color: #0c0114;
 }
+
+.sectiontwo {
+  background-image: url("/styles/CAImgs/sectiontwoBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectiontwo .secondSection .sectionTwo_Title h2 {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  padding: 30px 0;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
