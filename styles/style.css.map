@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECJZ,KAAK;CDKZ",
+    "sources": [
+        "style.scss",
+        "modules/_varibles.scss",
+        "modules/_classes.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
