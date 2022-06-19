@@ -79,6 +79,10 @@
   color: #ffffff;
 }
 
+.sectionOne {
+  background-color: #F5F5F5;
+}
+
 .sectionOne .firstSection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,7 +95,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  min-height: 60vh;
+  padding-bottom: 110px;
 }
 
 .sectionOne .firstSection .heading_place h1 {
@@ -99,6 +103,8 @@
   font-weight: 500;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 115.2px;
 }
 
 .sectionOne .firstSection .searchNorminate {
@@ -154,6 +160,7 @@
   color: #0c0114;
   border: none !important;
   outline: none;
+  background-color: transparent;
 }
 
 .sectionOne .firstSection .searchNorminate .searchHere .searchInput .input-control::-webkit-input-placeholder {
@@ -194,6 +201,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 9px;
+  margin-bottom: 30px;
 }
 
 .sectionOne .firstSection .searchNorminate .viewCart .view {
