@@ -273,12 +273,17 @@
   color: #ffffff;
 }
 
+.sectionthree {
+  position: relative;
+}
+
 .sectionthree .thirdSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 4rem;
   padding: 48px 0;
+  padding-top: 60px;
 }
 
 .sectionthree .thirdSection .connectAward img {
@@ -315,12 +320,18 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .sectionthree .thirdSection .award_content .learn {
   background-color: #3e0563;
   color: #ffffff;
   border: 1px solid #3e0563;
+}
+
+.sectionthree .leftSide {
+  position: absolute;
+  top: 411px;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */

@@ -159,10 +159,12 @@
     }
 }
 .sectionthree {
+    position: relative;
     .thirdSection {
         display: flex;
         gap: 4rem;
         padding: 48px 0;
+        padding-top: 60px;
         .connectAward {
             img {
                 width: 512px;
@@ -188,18 +190,23 @@
                     background-color: $titleColor;
                 }
             }
-            p{
+            p {
                 color: $colortext;
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 24px;
-                margin-bottom: 30px;
+                margin-bottom: 40px;
             }
-            .learn{
+            .learn {
                 background-color: $loginColor;
                 color: $textWhite;
                 border: 1px solid $loginColor;
             }
         }
+    }
+    .leftSide {
+        position: absolute;
+        top: 411px;
+        right: 0;
     }
 }
