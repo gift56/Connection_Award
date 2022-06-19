@@ -10,17 +10,30 @@
         justify-content: space-between;
         height: calc(3.5rem + 1.5rem);
         padding: 20px 0;
-        .award_nav{
+        .award_nav {
             display: flex;
             justify-content: space-between;
             width: 60%;
             align-items: center;
-            .award_items{
-                .award_links{
+            .award_items {
+                .award_links {
                     color: $colortext;
                     font-size: 16px;
                     font-weight: 500;
                 }
+            }
+        }
+        .award_buttons {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            .log {
+                background-color: $btnBg;
+                color: $loginColor;
+            }
+            .create {
+                background-color: $loginColor;
+                color: $textWhite;
             }
         }
     }
