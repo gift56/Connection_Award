@@ -273,10 +273,16 @@
         }
     }
 }
-.footer{
-    .footerRow{
-        .footerCol{
-            h4{
+.footer {
+    background-image: url("/styles/CAImgs/footerBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footerRow {
+        display: flex;
+        gap: 9rem;
+        padding: 50px 0;
+        .footerCol {
+            h4 {
                 color: $titleColor;
             }
         }

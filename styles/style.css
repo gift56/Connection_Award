@@ -455,6 +455,20 @@
   color: #0c0114;
 }
 
+.footer {
+  background-image: url("/styles/CAImgs/footerBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer .footerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 9rem;
+  padding: 50px 0;
+}
+
 .footer .footerRow .footerCol h4 {
   color: #fa9706;
 }
