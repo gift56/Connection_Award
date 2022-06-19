@@ -211,6 +211,7 @@
     }
 }
 .sectionfour {
+    position: relative;
     .fourthSection {
         display: flex;
         justify-content: space-between;
@@ -252,5 +253,9 @@
             gap: 15px;
             grid-template-columns: auto auto;
         }
+    }
+    .rightSide {
+        position: absolute;
+        top: 476px;
     }
 }

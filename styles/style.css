@@ -335,6 +335,10 @@
   right: 0;
 }
 
+.sectionfour {
+  position: relative;
+}
+
 .sectionfour .fourthSection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,5 +393,10 @@
   gap: 15px;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+.sectionfour .rightSide {
+  position: absolute;
+  top: 476px;
 }
 /*# sourceMappingURL=style.css.map */
