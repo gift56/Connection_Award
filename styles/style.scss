@@ -120,7 +120,7 @@
     background-image: url("/styles/CAImgs/sectiontwoBG.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:right;
+    background-position: right;
     height: fit-content;
     .secondSection {
         .sectionTwo_Title {
@@ -145,15 +145,60 @@
                 height: 245px;
                 flex-direction: column;
                 border: 1px solid $textWhite;
-                img{
+                img {
                     width: 50%;
                 }
-                span{
+                span {
                     margin-top: 12px;
                     font-size: 20px;
                     font-weight: 600;
                     color: $textWhite;
                 }
+            }
+        }
+    }
+}
+.sectionthree {
+    .thirdSection {
+        display: flex;
+        gap: 4rem;
+        padding: 48px 0;
+        .connectAward {
+            img {
+                width: 512px;
+                height: 490px;
+                border-radius: 4px;
+            }
+        }
+        .award_content {
+            flex-basis: 33%;
+            h2 {
+                font-size: 30px;
+                font-weight: 600;
+                color: $colortext;
+                margin-bottom: 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -0.39rem;
+                    left: 1.5%;
+                    width: 80px;
+                    height: 3px;
+                    background-color: $titleColor;
+                }
+            }
+            p{
+                color: $colortext;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+            .learn{
+                background-color: $loginColor;
+                color: $textWhite;
+                border: 1px solid $loginColor;
             }
         }
     }
