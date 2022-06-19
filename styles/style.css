@@ -471,5 +471,18 @@
 
 .footer .footerRow .footerCol h4 {
   color: #fa9706;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.footer .footerRow .footerCol ul li {
+  margin-bottom: 20px;
+}
+
+.footer .footerRow .footerCol ul li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

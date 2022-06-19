@@ -284,6 +284,19 @@
         .footerCol {
             h4 {
                 color: $titleColor;
+                font-weight: 600;
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+            ul {
+                li {
+                    margin-bottom: 20px;
+                    a {
+                        color: $textWhite;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }
