@@ -334,4 +334,60 @@
   top: 411px;
   right: 0;
 }
+
+.sectionfour .fourthSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 48px 0;
+  padding-top: 45px;
+}
+
+.sectionfour .fourthSection .celebrity_content {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.sectionfour .fourthSection .celebrity_content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c0114;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.sectionfour .fourthSection .celebrity_content h2::before {
+  content: "";
+  position: absolute;
+  bottom: -0.39rem;
+  left: 1.5%;
+  width: 80px;
+  height: 3px;
+  background-color: #fa9706;
+}
+
+.sectionfour .fourthSection .celebrity_content p {
+  color: #0c0114;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.sectionfour .fourthSection .celebrity_content .learn {
+  background-color: #3e0563;
+  color: #ffffff;
+  border: 1px solid #3e0563;
+}
+
+.sectionfour .fourthSection .celebrityAward {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
 /*# sourceMappingURL=style.css.map */

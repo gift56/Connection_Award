@@ -210,3 +210,47 @@
         right: 0;
     }
 }
+.sectionfour {
+    .fourthSection {
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 0;
+        padding-top: 45px;
+        .celebrity_content {
+            flex-basis: 33%;
+            h2 {
+                font-size: 30px;
+                font-weight: 600;
+                color: $colortext;
+                margin-bottom: 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -0.39rem;
+                    left: 1.5%;
+                    width: 80px;
+                    height: 3px;
+                    background-color: $titleColor;
+                }
+            }
+            p {
+                color: $colortext;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+                margin-bottom: 40px;
+            }
+            .learn {
+                background-color: $loginColor;
+                color: $textWhite;
+                border: 1px solid $loginColor;
+            }
+        }
+        .celebrityAward {
+            display: grid;
+            gap: 15px;
+            grid-template-columns: auto auto;
+        }
+    }
+}
