@@ -958,6 +958,34 @@
   gap: 9rem;
   padding: 50px 0;
   padding-bottom: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1113px) {
+  .footer .footerRow {
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .footer .footerRow {
+    row-gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer .footerRow {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer .footerRow .footerCol {
+    width: 36%;
+  }
 }
 
 .footer .footerRow .footerCol h4 {
@@ -981,8 +1009,20 @@
   padding-left: 4px;
 }
 
+@media screen and (max-width: 568px) {
+  .footer .footerRow .footerCol ul li a {
+    font-size: 12px;
+  }
+}
+
 .footer .footerLogo {
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer .footerLogo img {
+    width: 41%;
+  }
 }
 
 .footer .copyRitearea {

@@ -443,7 +443,20 @@
         gap: 9rem;
         padding: 50px 0;
         padding-bottom: 60px;
+        flex-wrap: wrap;
+        @media screen and (max-width: 1113px) {
+            gap: 4rem;
+        }
+        @media screen and (max-width: 846px) {
+            row-gap: 1.5rem;
+        }
+        @media screen and (max-width: 568px) {
+            justify-content: center;
+        }
         .footerCol {
+            @media screen and (max-width: 568px) {
+                width: 36%;
+            }
             h4 {
                 color: $titleColor;
                 font-weight: 600;
@@ -460,6 +473,9 @@
                         &:hover {
                             padding-left: 4px;
                         }
+                        @media screen and (max-width: 568px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
@@ -467,6 +483,11 @@
     }
     .footerLogo {
         margin-bottom: 15px;
+        img {
+            @media screen and (max-width: 400px) {
+                width: 41%;
+            }
+        }
     }
     .copyRitearea {
         display: flex;
