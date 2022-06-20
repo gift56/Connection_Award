@@ -35,3 +35,14 @@
         }
     }
 }
+.bars {
+    display: none;
+    font-size: 35px;
+    color: $loginColor;
+    @media screen and (max-width: 998px) {
+        display: block;
+    }
+}
+.show {
+    left: -15px !important;
+}
