@@ -540,5 +540,71 @@
         width: 547px;
         height: 655px;
         padding: 2rem;
+        .headingside {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h2 {
+                color: $colortext;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            h6 {
+                color: $colortext;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            p {
+                color: $colortext;
+                font-size: 16px;
+                font-weight: 600;
+                a {
+                    color: $titleColor;
+                }
+            }
+            .goggle {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: 600;
+                border: 1px solid $firstBg;
+                background-color: $firstBg;
+                margin-bottom: 15px;
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                    border: 2px solid $inputPlaceholder;
+                }
+            }
+            .option {
+                position: relative;
+                color: $Orcolor;
+                font-size: 14px;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0.5%;
+                    width: 213px;
+                    height: 1px;
+                    background-color: $Orcolor;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: 0.5%;
+                    width: 213px;
+                    height: 1px;
+                    background-color: $Orcolor;
+                }
+            }
+        }
     }
 }
