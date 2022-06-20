@@ -606,5 +606,31 @@
                 }
             }
         }
+        .myForm {
+            .form-label {
+                color: $colortext;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .loginBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                button {
+                    background-color: $loginColor;
+                    color: $textWhite;
+                    font-weight: 600;
+                    width: 100%;
+                }
+            }
+            .forgetPass {
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                color: $loginColor;
+                text-align: center;
+            }
+        }
     }
 }

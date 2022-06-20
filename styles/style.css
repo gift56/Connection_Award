@@ -184,6 +184,13 @@
   }
 }
 
+.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #bababa;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1207,5 +1214,39 @@
   width: 213px;
   height: 1px;
   background-color: #a6a6a6;
+}
+
+.loginArea .loginCard .myForm .form-label {
+  color: #0c0114;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.loginArea .loginCard .myForm .loginBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.loginArea .loginCard .myForm .loginBtn button {
+  background-color: #3e0563;
+  color: #ffffff;
+  font-weight: 600;
+  width: 100%;
+}
+
+.loginArea .loginCard .myForm .forgetPass {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3e0563;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
