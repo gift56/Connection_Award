@@ -597,7 +597,7 @@
   content: "";
   position: absolute;
   bottom: -0.39rem;
-  left: 1.5%;
+  left: 0.5%;
   width: 80px;
   height: 3px;
   background-color: #fa9706;
@@ -681,14 +681,13 @@
 
 @media screen and (max-width: 520px) {
   .sectionthree .leftSide {
-    top: 806px;
+    top: 724px;
     width: 15%;
   }
 }
 
 .sectionfour {
   position: relative;
-  display: none;
 }
 
 .sectionfour .fourthSection {
@@ -700,6 +699,22 @@
           justify-content: space-between;
   padding: 48px 0;
   padding-top: 45px;
+}
+
+@media screen and (max-width: 812px) {
+  .sectionfour .fourthSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 2rem;
+  }
 }
 
 .sectionfour .fourthSection .celebrity_content {
@@ -719,10 +734,16 @@
   content: "";
   position: absolute;
   bottom: -0.39rem;
-  left: 1.5%;
+  left: 0.5%;
   width: 80px;
   height: 3px;
   background-color: #fa9706;
+}
+
+@media screen and (max-width: 918px) {
+  .sectionfour .fourthSection .celebrity_content h2 {
+    font-size: 20px;
+  }
 }
 
 .sectionfour .fourthSection .celebrity_content p {
@@ -731,6 +752,12 @@
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 918px) {
+  .sectionfour .fourthSection .celebrity_content p {
+    font-size: 14px;
+  }
 }
 
 .sectionfour .fourthSection .celebrity_content .learn {
@@ -747,9 +774,60 @@
       grid-template-columns: auto auto;
 }
 
+@media screen and (max-width: 1026px) {
+  .sectionfour .fourthSection .celebrityAward {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .sectionfour .fourthSection .celebrityAward {
+    width: 98%;
+  }
+}
+
 .sectionfour .rightSide {
   position: absolute;
   top: 476px;
+}
+
+@media screen and (max-width: 812px) {
+  .sectionfour .rightSide {
+    width: 10%;
+    top: 616px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .sectionfour .rightSide {
+    top: 861px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .sectionfour .rightSide {
+    width: 13%;
+    top: 805px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .sectionfour .rightSide {
+    top: 790px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .sectionfour .rightSide {
+    top: 730px;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  .sectionfour .rightSide {
+    width: 15%;
+    top: 690px;
+  }
 }
 
 .sectionFive {

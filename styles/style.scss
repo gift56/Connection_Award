@@ -259,7 +259,7 @@
                     content: "";
                     position: absolute;
                     bottom: -0.39rem;
-                    left: 1.5%;
+                    left: 0.5%;
                     width: 80px;
                     height: 3px;
                     background-color: $titleColor;
@@ -313,19 +313,24 @@
             top: 693px;
         }
         @media screen and (max-width: 520px) {
-            top: 806px;
+            top: 724px;
             width: 15%;
         }
     }
 }
 .sectionfour {
     position: relative;
-    display: none;
     .fourthSection {
         display: flex;
         justify-content: space-between;
         padding: 48px 0;
         padding-top: 45px;
+        @media screen and (max-width: 812px) {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            row-gap: 2rem;
+        }
         .celebrity_content {
             flex-basis: 33%;
             h2 {
@@ -338,10 +343,13 @@
                     content: "";
                     position: absolute;
                     bottom: -0.39rem;
-                    left: 1.5%;
+                    left: 0.5%;
                     width: 80px;
                     height: 3px;
                     background-color: $titleColor;
+                }
+                @media screen and (max-width: 918px) {
+                    font-size: 20px;
                 }
             }
             p {
@@ -350,6 +358,9 @@
                 font-weight: 500;
                 line-height: 24px;
                 margin-bottom: 40px;
+                @media screen and (max-width: 918px) {
+                    font-size: 14px;
+                }
             }
             .learn {
                 background-color: $loginColor;
@@ -361,11 +372,38 @@
             display: grid;
             gap: 15px;
             grid-template-columns: auto auto;
+            @media screen and (max-width: 1026px) {
+                width: 50%;
+            }
+            @media screen and (max-width: 694px) {
+                width: 98%;
+            }
         }
     }
     .rightSide {
         position: absolute;
         top: 476px;
+        @media screen and (max-width: 812px) {
+            width: 10%;
+            top: 616px;
+        }
+        @media screen and (max-width: 694px) {
+            top: 861px;
+        }
+        @media screen and (max-width: 618px) {
+            width: 13%;
+            top: 805px;
+        }
+        @media screen and (max-width: 543px) {
+            top: 790px;
+        }
+        @media screen and (max-width: 491px) {
+            top: 730px;
+        }
+        @media screen and (max-width: 408px) {
+            width: 15%;
+            top: 690px;
+        }
     }
 }
 .sectionFive {
