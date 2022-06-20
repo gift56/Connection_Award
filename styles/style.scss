@@ -520,3 +520,25 @@
     }
 }
 // Landing page end
+
+// login starts here
+.loginArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/pages/img/formBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .form_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loginCard {
+        background-color: $textWhite;
+        width: 547px;
+        height: 655px;
+        padding: 2rem;
+    }
+}

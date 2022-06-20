@@ -1079,4 +1079,39 @@
     font-size: 12px;
   }
 }
+
+.loginArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url("/pages/img/formBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginArea .form_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginArea .loginCard {
+  background-color: #ffffff;
+  width: 547px;
+  height: 655px;
+  padding: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
