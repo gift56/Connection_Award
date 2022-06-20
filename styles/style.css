@@ -114,6 +114,76 @@
   left: -15px !important;
 }
 
+.rightSide {
+  position: absolute;
+  top: 476px;
+}
+
+@media screen and (max-width: 1026px) {
+  .rightSide {
+    top: 423px;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 963px) {
+  .rightSide {
+    width: 9%;
+    top: 440px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .rightSide {
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .rightSide {
+    top: 410px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .rightSide {
+    width: 10%;
+    top: 616px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .rightSide {
+    top: 861px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .rightSide {
+    width: 13%;
+    top: 805px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .rightSide {
+    top: 790px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .rightSide {
+    top: 730px;
+  }
+}
+
+@media screen and (max-width: 408px) {
+  .rightSide {
+    width: 15%;
+    top: 690px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -783,76 +853,6 @@
 @media screen and (max-width: 694px) {
   .sectionfour .fourthSection .celebrityAward {
     width: 98%;
-  }
-}
-
-.sectionfour .rightSide {
-  position: absolute;
-  top: 476px;
-}
-
-@media screen and (max-width: 1026px) {
-  .sectionfour .rightSide {
-    top: 423px;
-    width: 10%;
-  }
-}
-
-@media screen and (max-width: 963px) {
-  .sectionfour .rightSide {
-    width: 9%;
-    top: 440px;
-  }
-}
-
-@media screen and (max-width: 915px) {
-  .sectionfour .rightSide {
-    top: 430px;
-  }
-}
-
-@media screen and (max-width: 899px) {
-  .sectionfour .rightSide {
-    top: 410px;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .sectionfour .rightSide {
-    width: 10%;
-    top: 616px;
-  }
-}
-
-@media screen and (max-width: 694px) {
-  .sectionfour .rightSide {
-    top: 861px;
-  }
-}
-
-@media screen and (max-width: 618px) {
-  .sectionfour .rightSide {
-    width: 13%;
-    top: 805px;
-  }
-}
-
-@media screen and (max-width: 543px) {
-  .sectionfour .rightSide {
-    top: 790px;
-  }
-}
-
-@media screen and (max-width: 491px) {
-  .sectionfour .rightSide {
-    top: 730px;
-  }
-}
-
-@media screen and (max-width: 408px) {
-  .sectionfour .rightSide {
-    width: 15%;
-    top: 690px;
   }
 }
 

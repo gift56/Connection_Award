@@ -380,45 +380,6 @@
             }
         }
     }
-    .rightSide {
-        position: absolute;
-        top: 476px;
-        @media screen and (max-width: 1026px) {
-            top: 423px;
-            width: 10%;
-        }
-        @media screen and (max-width: 963px) {
-            width: 9%;
-            top: 440px;
-        }
-        @media screen and (max-width: 915px) {
-            top: 430px;
-        }
-        @media screen and (max-width: 899px) {
-            top: 410px;
-        }
-        @media screen and (max-width: 812px) {
-            width: 10%;
-            top: 616px;
-        }
-        @media screen and (max-width: 694px) {
-            top: 861px;
-        }
-        @media screen and (max-width: 618px) {
-            width: 13%;
-            top: 805px;
-        }
-        @media screen and (max-width: 543px) {
-            top: 790px;
-        }
-        @media screen and (max-width: 491px) {
-            top: 730px;
-        }
-        @media screen and (max-width: 408px) {
-            width: 15%;
-            top: 690px;
-        }
-    }
 }
 .sectionFive {
     .fifthSection {
