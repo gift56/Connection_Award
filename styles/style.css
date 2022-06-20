@@ -536,22 +536,45 @@
 
 .sectionthree {
   position: relative;
-  display: none;
 }
 
 .sectionthree .thirdSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 4rem;
   padding: 48px 0;
   padding-top: 60px;
+}
+
+@media screen and (max-width: 812px) {
+  .sectionthree .thirdSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .sectionthree .thirdSection .connectAward img {
   width: 512px;
   height: 490px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 1026px) {
+  .sectionthree .thirdSection .connectAward img {
+    width: 362px;
+    height: 372px;
+  }
 }
 
 .sectionthree .thirdSection .award_content {
@@ -577,12 +600,30 @@
   background-color: #fa9706;
 }
 
+@media screen and (max-width: 1114px) {
+  .sectionthree .thirdSection .award_content h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1114px) {
+  .sectionthree .thirdSection .award_content h2 {
+    font-size: 20px;
+  }
+}
+
 .sectionthree .thirdSection .award_content p {
   color: #0c0114;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 956px) {
+  .sectionthree .thirdSection .award_content p {
+    font-size: 15px;
+  }
 }
 
 .sectionthree .thirdSection .award_content .learn {
@@ -593,8 +634,53 @@
 
 .sectionthree .leftSide {
   position: absolute;
-  top: 411px;
+  top: 421px;
   right: 0;
+}
+
+@media screen and (max-width: 1026px) {
+  .sectionthree .leftSide {
+    width: 10%;
+    top: 383px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .sectionthree .leftSide {
+    width: 11.5%;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .sectionthree .leftSide {
+    top: 635px;
+  }
+}
+
+@media screen and (max-width: 806px) {
+  .sectionthree .leftSide {
+    width: 12%;
+    top: 660px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .sectionthree .leftSide {
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .sectionthree .leftSide {
+    top: 693px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .sectionthree .leftSide {
+    top: 806px;
+    width: 15%;
+  }
 }
 
 .sectionfour {
