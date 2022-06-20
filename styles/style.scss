@@ -277,6 +277,7 @@
     background-image: url("/styles/CAImgs/footerBg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: -90px;
     .footerRow {
         display: flex;
         gap: 9rem;
@@ -296,12 +297,27 @@
                         color: $textWhite;
                         font-weight: 400;
                         font-size: 16px;
-                        &:hover{
+                        &:hover {
                             padding-left: 4px;
                         }
                     }
                 }
             }
+        }
+    }
+    .footerLogo {
+        margin-bottom: 15px;
+    }
+    .copyRitearea {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $textWhite;
+        padding-bottom: 80px;
+        p,
+        span {
+            font-size: 16px;
+            font-weight: 400;
         }
     }
 }

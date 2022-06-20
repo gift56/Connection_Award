@@ -459,6 +459,7 @@
   background-image: url("/styles/CAImgs/footerBg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -90px;
 }
 
 .footer .footerRow {
@@ -489,5 +490,29 @@
 
 .footer .footerRow .footerCol ul li a:hover {
   padding-left: 4px;
+}
+
+.footer .footerLogo {
+  margin-bottom: 15px;
+}
+
+.footer .copyRitearea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.footer .copyRitearea p,
+.footer .copyRitearea span {
+  font-size: 16px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
