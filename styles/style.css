@@ -800,14 +800,20 @@
 
 @media screen and (max-width: 963px) {
   .sectionfour .rightSide {
-    width: 9% !important;
-    top: 447px;
+    width: 9%;
+    top: 440px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .sectionfour .rightSide {
+    top: 430px;
   }
 }
 
 @media screen and (max-width: 899px) {
   .sectionfour .rightSide {
-    top: 430px;
+    top: 410px;
   }
 }
 
@@ -851,7 +857,13 @@
 }
 
 .sectionFive .fifthSection {
-  padding: 48px 0;
+  padding: 53px 0;
+}
+
+@media screen and (max-width: 812px) {
+  .sectionFive .fifthSection {
+    padding: 88px 0;
+  }
 }
 
 .sectionFive .fifthSection .iconFour {
@@ -865,7 +877,7 @@
           justify-content: space-between;
 }
 
-@media screen and (max-width: 933px) {
+@media screen and (max-width: 947px) {
   .sectionFive .fifthSection .iconFour {
     row-gap: 3rem;
   }

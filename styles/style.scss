@@ -388,11 +388,14 @@
             width: 10%;
         }
         @media screen and (max-width: 963px) {
-            width: 9% !important;
-            top: 447px;
+            width: 9%;
+            top: 440px;
+        }
+        @media screen and (max-width: 915px) {
+            top: 430px;
         }
         @media screen and (max-width: 899px) {
-            top: 430px;
+            top: 410px;
         }
         @media screen and (max-width: 812px) {
             width: 10%;
@@ -419,12 +422,15 @@
 }
 .sectionFive {
     .fifthSection {
-        padding: 48px 0;
+        padding: 53px 0;
+        @media screen and (max-width: 812px) {
+            padding: 88px 0;
+        }
         .iconFour {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            @media screen and(max-width:933px) {
+            @media screen and(max-width:947px) {
                 row-gap: 3rem;
             }
             @media screen and(max-width:633px) {
