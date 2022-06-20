@@ -103,23 +103,12 @@
 }
 .sectionOne {
     background-color: $firstBg;
-    display: none;
     .firstSection {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         padding-bottom: 110px;
-        .heading_place {
-            h1 {
-                font-size: 96px;
-                font-weight: 500;
-                text-align: center;
-                margin-top: 40px;
-                margin-bottom: 20px;
-                line-height: 115.2px;
-            }
-        }
         .searchNorminate {
             width: 100%;
             display: flex;
@@ -130,6 +119,12 @@
                 justify-content: center;
                 gap: 1.5rem;
                 margin-bottom: 15px;
+                @media screen and (max-width: 381px) {
+                    gap: 1rem;
+                }
+                @media screen and (max-width: 310px) {
+                    gap: 10px;
+                }
                 .searchInput {
                     position: relative;
                     display: flex;
@@ -139,6 +134,10 @@
                     padding: 2px 16px;
                     border-radius: 4px;
                     border: 1px solid $inputPlaceholder;
+                    @media screen and (max-width: 381px) {
+                        padding: 2px 9px;
+                        gap: 12px;
+                    }
                     .searchIcon {
                         display: flex;
                     }
@@ -154,6 +153,12 @@
                             font-size: 16px;
                             font-weight: 500;
                         }
+                        @media screen and (max-width: 381px) {
+                            padding: 12px 4px;
+                        }
+                        @media screen and (max-width: 300px) {
+                            padding: 10px 2px;
+                        }
                     }
                 }
                 .search {
@@ -162,19 +167,26 @@
                         color: $textWhite;
                         border: 1px solid $loginColor;
                         padding: 14px 28px;
+                        @media screen and (max-width: 300px) {
+                            padding: 10px 20px;
+                        }
                     }
                 }
             }
             .viewCart {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: baseline;
                 gap: 9px;
                 margin-bottom: 30px;
                 .view {
                     font-size: 18px;
                     font-weight: 400;
                     color: $colortext;
+                }
+                i {
+                    font-size: 16px;
+                    color: $black;
                 }
             }
         }

@@ -6,6 +6,42 @@
     list-style: none;
     text-decoration: none !important;
 }
-.fa {
+.fa,
+.fa-solid {
     font-family: "Font Awesome 6 Free" !important;
+}
+.heading_place {
+    h1 {
+        font-size: 96px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        line-height: 115.2px;
+        @media screen and (max-width: 1384px) {
+            font-size: 90px;
+        }
+        @media screen and (max-width: 1295px) {
+            font-size: 70px;
+        }
+        @media screen and (max-width: 522px) {
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 76.8px;
+        }
+        @media screen and (max-width: 391px) {
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 76.8px;
+        }
+        @media screen and (max-width: 351px) {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 76.8px;
+        }
+        @media screen and (max-width: 310px) {
+            font-size: 30px;
+            line-height: 70px;
+        }
+    }
 }
