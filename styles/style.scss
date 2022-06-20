@@ -11,7 +11,9 @@
         height: calc(3.5rem + 1.5rem);
         padding: 20px 0;
         position: relative;
-
+        .awardlogo {
+            z-index: 10;
+        }
         .award_nav {
             display: flex;
             justify-content: space-between;
@@ -30,7 +32,7 @@
                 display: inline-block;
                 width: 99vw;
                 text-align: left;
-                z-index: -1;
+                z-index: 1;
                 background-color: $textWhite;
                 transition: all 300ms ease;
             }
@@ -109,6 +111,7 @@
         justify-content: center;
         flex-wrap: wrap;
         padding-bottom: 110px;
+        z-index: -2;
         .searchNorminate {
             width: 100%;
             display: flex;

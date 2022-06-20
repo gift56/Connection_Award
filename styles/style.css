@@ -200,6 +200,10 @@
   position: relative;
 }
 
+.header .Awardnav .awardlogo {
+  z-index: 10;
+}
+
 .header .Awardnav .award_nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,7 +237,7 @@
     display: inline-block;
     width: 99vw;
     text-align: left;
-    z-index: -1;
+    z-index: 1;
     background-color: #ffffff;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -350,6 +354,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-bottom: 110px;
+  z-index: -2;
 }
 
 .sectionOne .firstSection .searchNorminate {
