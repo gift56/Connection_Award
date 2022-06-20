@@ -39,6 +39,7 @@
     display: none;
     font-size: 35px;
     color: $loginColor;
+    cursor: pointer;
     @media screen and (max-width: 998px) {
         display: block;
     }
