@@ -198,7 +198,9 @@
     background-size: cover;
     background-position: right;
     height: fit-content;
-    display: none;
+    @media screen and (max-width: 400px) {
+        background-position-x: -146px;
+    }
     .secondSection {
         .sectionTwo_Title {
             h2 {
@@ -208,6 +210,10 @@
                 padding: 50px 0;
                 padding-bottom: 80px;
                 color: $textWhite;
+                @media screen and (max-width: 466px) {
+                    font-size: 36px;
+                    font-weight: 500;
+                }
             }
         }
     }
