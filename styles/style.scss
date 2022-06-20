@@ -383,6 +383,17 @@
     .rightSide {
         position: absolute;
         top: 476px;
+        @media screen and (max-width: 1026px) {
+            top: 423px;
+            width: 10%;
+        }
+        @media screen and (max-width: 963px) {
+            width: 9% !important;
+            top: 447px;
+        }
+        @media screen and (max-width: 899px) {
+            top: 430px;
+        }
         @media screen and (max-width: 812px) {
             width: 10%;
             top: 616px;
@@ -407,12 +418,18 @@
     }
 }
 .sectionFive {
-    display: none;
     .fifthSection {
         padding: 48px 0;
         .iconFour {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
+            @media screen and(max-width:933px) {
+                row-gap: 3rem;
+            }
+            @media screen and(max-width:633px) {
+                justify-content: center;
+            }
             .secFour {
                 border: 1px solid $inputPlaceholder !important;
                 border-radius: 5px;
@@ -424,6 +441,12 @@
                 flex-direction: column;
                 box-shadow: 0px 0 4px $inputPlaceholder;
                 padding: 12px;
+                @media screen and (max-width: 1209px) {
+                    width: 300px;
+                }
+                @media screen and (max-width: 1007px) {
+                    width: 285px;
+                }
                 img {
                     margin-bottom: 20px;
                 }
