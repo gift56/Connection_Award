@@ -951,6 +951,12 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  .footer {
+    background-position-x: center;
+  }
+}
+
 .footer .footerRow {
   display: -webkit-box;
   display: -ms-flexbox;

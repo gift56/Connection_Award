@@ -438,6 +438,10 @@
     background-image: url("/styles/CAImgs/footerBg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    @media screen and (max-width: 600px) {
+        background-position-x: center;
+    }
+
     .footerRow {
         display: flex;
         gap: 9rem;
