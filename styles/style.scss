@@ -682,7 +682,8 @@
     .sigupCard {
         background-color: $textWhite;
         width: 547px;
-        height: 655px;
+        height: fit-content;
+        margin: 20px 0;
         padding: 2rem;
         @media screen and (max-width: 500px) {
             width: 661px;
@@ -779,7 +780,7 @@
                 font-size: 14px;
                 font-weight: 600;
             }
-            .loginBtn {
+            .signupBtn {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -797,6 +798,19 @@
                 font-weight: 500;
                 color: $loginColor;
                 text-align: center;
+            }
+        }
+        .form_check {
+            text-align: center;
+            width: 100%;
+            label {
+                font-size: 13px;
+                font-weight: 600;
+                color: $colortext;
+                width: 101%;
+                span{
+                    color: $titleColor;
+                }
             }
         }
     }

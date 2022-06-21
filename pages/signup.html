@@ -19,25 +19,70 @@
                 <div class="headingside">
                     <h2>Time to vote your favourite Techie,
                         let's make this amazing!</h2>
-                    <h6>Log in to your account</h6>
-                    <p>Don’t have an account? <a href="/pages/signup.html">Sign Up</a></p>
+                    <h6>Create an Account</h6>
+                    <p>Have an account? <a href="/pages/login.html">Log in</a></p>
                     <a href="https://www.google.com.ng/" class="btn goggle">
                         <span class="goggleIcon"><img src="/pages/img/gogleImg.png" alt="" class="goggleimg"></span>
                         Continue with google
                     </a>
                     <span class="option">OR</span>
                 </div>
-                <form class="myForm" id="Form">
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <form class="row g-3 needs-validation myForm" id="Signupform" novalidate>
+                    <div class="col-md-6">
+                        <label for="Firstname" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="Firstname" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password">
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
                     </div>
-                    <div class="loginBtn"><button type="submit" class="btn">Log in</button></div>
-                    <a href="#" class="forgetPass">Forgot Password</a>
+                    <div class="col-md-12">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phoneNumber" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="password" class="form-label">Set Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select class="form-select" id="gender" required>
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Custom</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class='form_check'>
+                        <label>
+                            By registering you agree to Techtrend Africa's <span>Terms of Use</span> and<span> Privacy Policy</span>
+                        </label>
+                    </div>
+                    <div class="col-12 signupBtn">
+                        <button class="btn" type="submit">Create my account</button>
+                    </div>
                 </form>
             </div>
         </div>

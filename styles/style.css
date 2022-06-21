@@ -1336,7 +1336,10 @@
 .signupArea .sigupCard {
   background-color: #ffffff;
   width: 547px;
-  height: 655px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px 0;
   padding: 2rem;
 }
 
@@ -1483,7 +1486,7 @@
   font-weight: 600;
 }
 
-.signupArea .sigupCard .myForm .loginBtn {
+.signupArea .sigupCard .myForm .signupBtn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1496,7 +1499,7 @@
   margin-bottom: 20px;
 }
 
-.signupArea .sigupCard .myForm .loginBtn button {
+.signupArea .sigupCard .myForm .signupBtn button {
   background-color: #3e0563;
   color: #ffffff;
   font-weight: 600;
@@ -1509,5 +1512,21 @@
   font-weight: 500;
   color: #3e0563;
   text-align: center;
+}
+
+.signupArea .sigupCard .form_check {
+  text-align: center;
+  width: 100%;
+}
+
+.signupArea .sigupCard .form_check label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0c0114;
+  width: 101%;
+}
+
+.signupArea .sigupCard .form_check label span {
+  color: #fa9706;
 }
 /*# sourceMappingURL=style.css.map */
