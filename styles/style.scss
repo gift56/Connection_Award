@@ -820,8 +820,34 @@
 // connection starts here
 .connect {
     border-bottom: 1px solid $btnBg;
+    .Awardnav {
+        .award_buttons {
+            display: flex;
+            @media screen and (max-width: 998px) {
+                position: relative;
+                top: 0;
+                left: 0;
+                transition: all 300ms ease;
+                justify-content: flex-end;
+            }
+            .log {
+                @media screen and (max-width: 998px) {
+                    display: none;
+                }
+            }
+            .create {
+                @media screen and (max-width: 998px) {
+                    background: $loginColor;
+                    color: $textWhite;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
 }
 .awards {
+    display: none;
     .row {
         display: flex;
         align-items: center;
@@ -867,11 +893,11 @@
                     color: $black;
                 }
             }
-            
-            .second_img{
+
+            .second_img {
                 display: flex;
                 justify-content: end;
-                img{
+                img {
                     width: 90%;
                 }
             }

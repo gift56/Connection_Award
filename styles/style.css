@@ -1534,6 +1534,44 @@
   border-bottom: 1px solid #eee8f2;
 }
 
+.connect .Awardnav .award_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 998px) {
+  .connect .Awardnav .award_buttons {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .connect .Awardnav .award_buttons .log {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .connect .Awardnav .award_buttons .create {
+    background: #3e0563;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.awards {
+  display: none;
+}
+
 .awards .row {
   display: -webkit-box;
   display: -ms-flexbox;
