@@ -959,8 +959,8 @@
             font-weight: 600;
         }
     }
-    .Lightling{
-       height: 54px;
+    .Lightling {
+        height: 54px;
     }
 }
 .mainAreaD {
@@ -1065,3 +1065,54 @@
     }
 }
 // donation ends here
+
+// techies starts here
+.techiesArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .techiesTitle {
+        margin: 40px 0;
+        h2 {
+            color: $colortext;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p {
+            color: $titlePage;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+    .celebrityItems {
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: auto auto auto auto;
+        margin-bottom: 40px;
+        .celebrityItem {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 0.25rem;
+            img {
+                margin-bottom: 12px;
+            }
+            h4 {
+                color: $colortext;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            p {
+                color: $loginColor;
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+// techies ends here

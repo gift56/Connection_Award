@@ -1940,4 +1940,81 @@
     width: 100%;
   }
 }
+
+.techiesArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.techiesArea .techiesTitle {
+  margin: 40px 0;
+}
+
+.techiesArea .techiesTitle h2 {
+  color: #0c0114;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.techiesArea .techiesTitle p {
+  color: #808080;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.techiesArea .celebrityItems {
+  display: -ms-grid;
+  display: grid;
+  gap: 5rem;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  margin-bottom: 40px;
+}
+
+.techiesArea .celebrityItems .celebrityItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.techiesArea .celebrityItems .celebrityItem img {
+  margin-bottom: 12px;
+}
+
+.techiesArea .celebrityItems .celebrityItem h4 {
+  color: #0c0114;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.techiesArea .celebrityItems .celebrityItem p {
+  color: #3e0563;
+  font-size: 13px;
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */
