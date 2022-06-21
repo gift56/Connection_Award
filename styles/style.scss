@@ -953,4 +953,52 @@
         }
     }
 }
+.donateArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .donate_title {
+        margin: 40px 0;
+        text-align: center;
+        h2 {
+            color: $colortext;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        p {
+            color: $titlePage;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+    .firstContent {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        p {
+            color: $black;
+            flex-basis: 50%;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    .secondContent {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        p {
+            color: $black;
+            flex-basis: 50%;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        img {
+            position: absolute;
+            right: -20px;
+            top: -300px;
+        }
+    }
+}
 // donation ends here
