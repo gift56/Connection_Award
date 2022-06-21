@@ -1168,6 +1168,7 @@
                 justify-content: flex-end;
                 margin-top: 30px;
                 width: 75%;
+                color: $colortext;
                 h5 {
                     font-size: 18px;
                     font-weight: 600;
@@ -1252,7 +1253,7 @@
             @media screen and (max-width: 382px) {
                 width: 260px;
             }
-            &:hover{
+            &:hover {
                 border: 1px solid $border;
             }
             img {

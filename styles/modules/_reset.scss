@@ -46,4 +46,191 @@
         }
     }
 }
-
+.votecounter {
+    text-align: center;
+    margin-bottom: 30px;
+    h4 {
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $colortext;
+        span {
+            color: $loginColor;
+            font-size: 40px;
+            font-weight: 500;
+        }
+    }
+    p {
+        color: $colortext;
+        font-size: 19px;
+        font-weight: 500;
+    }
+}
+.extendItemed {
+    @media screen and (max-width: 1450px) {
+        column-gap: 2rem !important;
+    }
+    @media screen and (max-width: 1070px) {
+        column-gap: 1rem !important;
+    }
+    @media screen and (max-width: 998px) {
+        grid-template-columns: auto auto !important;
+        justify-content: center !important;
+        column-gap: 8rem !important;
+    }
+    @media screen and (max-width: 630px) {
+        column-gap: 4rem !important;
+    }
+    @media screen and (max-width: 530px) {
+        column-gap: 2rem !important;
+    }
+    @media screen and (max-width: 582px) {
+        grid-template-columns: auto !important;
+    }
+    .extendItems {
+        height: 300px !important;
+        @media screen and (max-width: 1399px) {
+            width: 260px !important;
+        }
+        @media screen and (max-width: 1269px) {
+            width: 220px !important;
+        }
+        @media screen and (max-width: 520px) {
+            width: 260px !important;
+        }
+        h5 {
+            color: $colortext;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+        .increasNum {
+            width: 75%;
+            .increseFigure {
+                background-color: $loginColor;
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                border-radius: 4px;
+                padding: 2px;
+                .increaseN {
+                    background-color: $textWhite;
+                    width: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 10px 5px;
+                    border-radius: 4px;
+                    color: $loginColor;
+                    i {
+                        cursor: pointer;
+                        font-size: 19px;
+                    }
+                    span {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                button {
+                    background-color: transparent;
+                    border: none;
+                    color: $textWhite;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+.voteModal {
+    background-color: #0000008a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    .cardBody {
+        position: relative;
+        background-color: $textWhite;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        width: 511px;
+        height: 510px;
+        transition: all 300ms ease;
+        @media screen and (max-width: 540px) {
+            width: 376px;
+        }
+        @media screen and (max-width: 394px) {
+            width: 306px;
+        }
+        .closeIcon {
+            position: absolute;
+            top: 24px;
+            right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 300ms ease;
+            i {
+                font-size: 17px;
+                cursor: pointer;
+            }
+        }
+        .card_content {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 300ms ease;
+            img {
+                margin-bottom: 20px;
+            }
+            h2 {
+                color: $loginColor;
+                font-size: 48px;
+                font-weight: 500;
+                margin-bottom: 20px;
+                @media screen and (max-width:540px) {
+                    font-size: 30px;
+                }
+            }
+            p {
+                color: $colortext;
+                font-size: 17px;
+                font-weight: 600;
+                text-align: center;
+                @media screen and (max-width:540px) {
+                    font-size: 14px;
+                }
+            }
+            .p {
+                margin-bottom: 20px;
+            }
+            .return {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                background-color: $loginColor;
+                color: $textWhite;
+                font-size: 500;
+            }
+        }
+    }
+}
+.here{
+    color: $loginColor;
+    font-size: 20px;
+    font-weight: 600;
+}

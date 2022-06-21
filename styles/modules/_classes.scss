@@ -9,6 +9,7 @@
     border-radius: 4px;
     transition: all 300ms ease;
     outline: none;
+    cursor: pointer;
 }
 .img-fluid {
     max-width: 100%;
@@ -178,4 +179,7 @@
             }
         }
     }
+}
+.disp-f{
+    display: flex !important;
 }
