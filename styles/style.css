@@ -2060,6 +2060,14 @@
   border-bottom: 1px solid #eee8f2;
 }
 
+.cartegoriesArea .cartH {
+  margin-bottom: 30px;
+}
+
+.cartegoriesArea .cartH .cartBtn {
+  padding: 14px 30px;
+}
+
 .cartegoriesArea .cartegoriesTitle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2107,5 +2115,27 @@
 
 .cartegoriesArea .cartegoriesItems .cartegoryItem img {
   margin-bottom: 12px;
+}
+
+.cartegoriesArea .cartegoriesItems .cartegoryItem .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 30px;
+  width: 75%;
+}
+
+.cartegoriesArea .cartegoriesItems .cartegoryItem .icons h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0c0114;
+}
+
+.cartegoriesArea .cartegoriesItems .cartegoryItem .icons i {
+  font-size: 18px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
