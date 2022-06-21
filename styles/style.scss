@@ -534,7 +534,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @media screen and (max-width:500px) {
+        @media screen and (max-width: 500px) {
             width: 100%;
         }
     }
@@ -543,7 +543,7 @@
         width: 547px;
         height: 655px;
         padding: 2rem;
-        @media screen and (max-width:500px) {
+        @media screen and (max-width: 500px) {
             width: 661px;
             padding: 13px;
         }
@@ -556,7 +556,7 @@
                 font-size: 24px;
                 font-weight: 600;
                 margin-bottom: 20px;
-                @media screen and (max-width:500px) {
+                @media screen and (max-width: 500px) {
                     font-size: 18px;
                 }
             }
@@ -564,7 +564,7 @@
                 color: $colortext;
                 font-size: 18px;
                 font-weight: 600;
-                @media screen and (max-width:500px) {
+                @media screen and (max-width: 500px) {
                     font-size: 16px;
                 }
             }
@@ -572,7 +572,7 @@
                 color: $colortext;
                 font-size: 16px;
                 font-weight: 600;
-                @media screen and (max-width:500px) {
+                @media screen and (max-width: 500px) {
                     font-size: 14px;
                 }
                 a {
@@ -589,7 +589,7 @@
                 border: 1px solid $firstBg;
                 background-color: $firstBg;
                 margin-bottom: 15px;
-               
+
                 &:focus {
                     box-shadow: none;
                     outline: none;
@@ -605,7 +605,7 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 20px;
-                @media screen and (max-width:500px) {
+                @media screen and (max-width: 500px) {
                     font-size: 12px;
                 }
                 &::before {
@@ -615,7 +615,7 @@
                     width: 213px;
                     height: 1px;
                     background-color: $Orcolor;
-                    @media screen and (max-width:500px) {
+                    @media screen and (max-width: 500px) {
                         width: 110px;
                     }
                 }
@@ -626,7 +626,7 @@
                     width: 213px;
                     height: 1px;
                     background-color: $Orcolor;
-                    @media screen and (max-width:500px) {
+                    @media screen and (max-width: 500px) {
                         width: 110px;
                     }
                 }
@@ -661,3 +661,144 @@
     }
 }
 // login ends here
+
+// sigup starts here
+.signupArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/pages/img/formBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .form_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 500px) {
+            width: 100%;
+        }
+    }
+    .sigupCard {
+        background-color: $textWhite;
+        width: 547px;
+        height: 655px;
+        padding: 2rem;
+        @media screen and (max-width: 500px) {
+            width: 661px;
+            padding: 13px;
+        }
+        .headingside {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            h2 {
+                color: $colortext;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                @media screen and (max-width: 500px) {
+                    font-size: 18px;
+                }
+            }
+            h6 {
+                color: $colortext;
+                font-size: 18px;
+                font-weight: 600;
+                @media screen and (max-width: 500px) {
+                    font-size: 16px;
+                }
+            }
+            p {
+                color: $colortext;
+                font-size: 16px;
+                font-weight: 600;
+                @media screen and (max-width: 500px) {
+                    font-size: 14px;
+                }
+                a {
+                    color: $titleColor;
+                }
+            }
+            .goggle {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                justify-content: center;
+                font-size: 14px;
+                font-weight: 600;
+                border: 1px solid $firstBg;
+                background-color: $firstBg;
+                margin-bottom: 15px;
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                    border: 2px solid $inputPlaceholder;
+                }
+            }
+            .option {
+                position: relative;
+                color: $Orcolor;
+                font-size: 14px;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                @media screen and (max-width: 500px) {
+                    font-size: 12px;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0.5%;
+                    width: 213px;
+                    height: 1px;
+                    background-color: $Orcolor;
+                    @media screen and (max-width: 500px) {
+                        width: 110px;
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    right: 0.5%;
+                    width: 213px;
+                    height: 1px;
+                    background-color: $Orcolor;
+                    @media screen and (max-width: 500px) {
+                        width: 110px;
+                    }
+                }
+            }
+        }
+        .myForm {
+            .form-label {
+                color: $colortext;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .loginBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+                button {
+                    background-color: $loginColor;
+                    color: $textWhite;
+                    font-weight: 600;
+                    width: 100%;
+                }
+            }
+            .forgetPass {
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                color: $loginColor;
+                text-align: center;
+            }
+        }
+    }
+}
+// sigup ends here
