@@ -946,6 +946,7 @@
         gap: 10px;
         justify-content: space-between;
         color: $black;
+        cursor: pointer;
         span {
             font-size: 18px;
             color: $colortext;
@@ -953,11 +954,15 @@
         }
     }
 }
+.mainAreaD{
+    padding-bottom: 20vh;
+}
 .donateArea {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
     .donate_title {
         margin: 40px 0;
         text-align: center;
@@ -998,6 +1003,7 @@
             position: absolute;
             right: -20px;
             top: -300px;
+            width: 40%;
         }
     }
 }

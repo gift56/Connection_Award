@@ -1739,12 +1739,17 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #000000;
+  cursor: pointer;
 }
 
 .award_account p span {
   font-size: 18px;
   color: #0c0114;
   font-weight: 600;
+}
+
+.mainAreaD {
+  padding-bottom: 20vh;
 }
 
 .donateArea {
@@ -1819,5 +1824,6 @@
   position: absolute;
   right: -20px;
   top: -300px;
+  width: 40%;
 }
 /*# sourceMappingURL=style.css.map */
