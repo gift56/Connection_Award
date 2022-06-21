@@ -947,14 +947,24 @@
         justify-content: space-between;
         color: $black;
         cursor: pointer;
+        @media screen and (max-width: 992px) {
+            justify-content: initial;
+            padding-left: 20px;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
         span {
             font-size: 18px;
             color: $colortext;
             font-weight: 600;
         }
     }
+    .Lightling{
+       border-bottom: 1px solid $inputPlaceholder; 
+       height: 54px;
+    }
 }
-.mainAreaD{
+.mainAreaD {
     padding-bottom: 20vh;
 }
 .donateArea {
@@ -982,28 +992,76 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
+        @media screen and (max-width: 992px) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 30px;
+        }
         p {
             color: $black;
             flex-basis: 50%;
             font-size: 20px;
             font-weight: 500;
+            @media screen and (max-width: 1300px) {
+                font-size: 16px;
+            }
+            @media screen and (max-width: 1140px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 992px) {
+                text-align: justify;
+            }
+        }
+        img {
+            @media screen and (max-width: 1300px) {
+                width: 40%;
+            }
+            @media screen and (max-width: 992px) {
+                width: 100%;
+            }
         }
     }
     .secondContent {
         display: flex;
         justify-content: space-between;
         position: relative;
+        @media screen and (max-width: 992px) {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            row-gap: 30px;
+        }
         p {
             color: $black;
             flex-basis: 50%;
             font-size: 20px;
             font-weight: 500;
+            @media screen and (max-width: 1300px) {
+                font-size: 16px;
+            }
+            @media screen and (max-width: 1140px) {
+                font-size: 15px;
+            }
+            @media screen and (max-width: 992px) {
+                text-align: justify;
+            }
         }
         img {
             position: absolute;
             right: -20px;
-            top: -300px;
+            top: -241px;
             width: 40%;
+            @media screen and (max-width: 1220px) {
+                top: -200px;
+            }
+            @media screen and (max-width: 1140px) {
+                top: -150px;
+            }
+            @media screen and (max-width: 992px) {
+                position: initial;
+                width: 100%;
+            }
         }
     }
 }
