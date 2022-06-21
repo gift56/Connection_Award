@@ -827,6 +827,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        padding-bottom: 40px;
         .title_area {
             margin: 40px 0;
             text-align: center;
@@ -841,11 +842,38 @@
                 font-weight: 300;
             }
         }
-        .connect_img{
+        .connect_img {
             width: 100%;
-            margin-bottom: 20px;
-            img{
+            margin-bottom: 30px;
+            img {
                 width: 100%;
+            }
+        }
+        .global {
+            display: flex;
+            justify-content: space-between;
+            .text_title {
+                flex-basis: 45%;
+                h2 {
+                    color: $colortext;
+                    font-size: 40px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: 80%;
+                    color: $black;
+                }
+            }
+            
+            .second_img{
+                display: flex;
+                justify-content: end;
+                img{
+                    width: 90%;
+                }
             }
         }
     }
