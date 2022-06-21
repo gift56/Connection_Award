@@ -847,7 +847,6 @@
     }
 }
 .awards {
-    display: none;
     .row {
         display: flex;
         align-items: center;
@@ -861,11 +860,17 @@
                 color: $colortext;
                 font-weight: 600;
                 font-size: 30px;
+                @media screen and (max-width: 375px) {
+                    font-size: 25px;
+                }
             }
             p {
                 color: $titlePage;
                 font-size: 20px;
                 font-weight: 300;
+                @media screen and (max-width: 375px) {
+                    font-size: 16px;
+                }
             }
         }
         .connect_img {
@@ -878,6 +883,12 @@
         .global {
             display: flex;
             justify-content: space-between;
+            @media screen and (max-width: 992px) {
+                flex-direction: column;
+                align-items: center;
+                text-align: justify;
+                row-gap: 30px;
+            }
             .text_title {
                 flex-basis: 45%;
                 h2 {
@@ -885,18 +896,36 @@
                     font-size: 40px;
                     font-weight: 600;
                     margin-bottom: 20px;
+                    @media screen and (max-width: 1323px) {
+                        font-size: 30px;
+                    }
+                    @media screen and (max-width: 1034px) {
+                        font-size: 24px;
+                    }
+                    @media screen and (max-width: 357px) {
+                        font-size: 20px;
+                    }
                 }
                 p {
                     font-size: 16px;
                     font-weight: 500;
                     width: 80%;
                     color: $black;
+                    @media screen and (max-width: 1034px) {
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 992px) {
+                        width: 100%;
+                    }
                 }
             }
 
             .second_img {
                 display: flex;
                 justify-content: end;
+                @media screen and (max-width: 992px) {
+                    justify-content: center;
+                }
                 img {
                     width: 90%;
                 }
