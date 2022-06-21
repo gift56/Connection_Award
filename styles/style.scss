@@ -1074,3 +1074,37 @@
     }
 }
 // techies ends here
+
+// cartegorie starts here
+.cartegories {
+    border-bottom: 1px solid $btnBg;
+}
+.cartegoriesArea {
+    .cartegoriesTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .cartegoriesItems {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 4rem;
+        .cartegoryItem {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $btnBg;
+            width: 290px;
+            height: 188px;
+            border-radius: 8px;
+            box-shadow: $shadow2;
+            margin-bottom: 30px;
+            img{
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+// cartegorie ends here
