@@ -934,3 +934,23 @@
     }
 }
 // connection ends here
+
+// donation starts here
+.donate {
+    border-bottom: 1px solid $btnBg;
+}
+.award_account {
+    p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        color: $black;
+        span {
+            font-size: 18px;
+            color: $colortext;
+            font-weight: 600;
+        }
+    }
+}
+// donation ends here
