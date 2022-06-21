@@ -808,7 +808,7 @@
                 font-weight: 600;
                 color: $colortext;
                 width: 101%;
-                span{
+                span {
                     color: $titleColor;
                 }
             }
@@ -816,3 +816,38 @@
     }
 }
 // sigup ends here
+
+// connection starts here
+.connect {
+    border-bottom: 1px solid $btnBg;
+}
+.awards {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .title_area {
+            margin: 40px 0;
+            text-align: center;
+            h2 {
+                color: $colortext;
+                font-weight: 600;
+                font-size: 30px;
+            }
+            p {
+                color: $titlePage;
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+        .connect_img{
+            width: 100%;
+            margin-bottom: 20px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+// connection ends here

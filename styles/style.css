@@ -1529,4 +1529,48 @@
 .signupArea .sigupCard .form_check label span {
   color: #fa9706;
 }
+
+.connect {
+  border-bottom: 1px solid #eee8f2;
+}
+
+.awards .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.awards .row .title_area {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.awards .row .title_area h2 {
+  color: #0c0114;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.awards .row .title_area p {
+  color: #808080;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.awards .row .connect_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.awards .row .connect_img img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
