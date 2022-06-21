@@ -1115,11 +1115,24 @@
           align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+  .loginArea .form_content {
+    width: 100%;
+  }
+}
+
 .loginArea .loginCard {
   background-color: #ffffff;
   width: 547px;
   height: 655px;
   padding: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard {
+    width: 661px;
+    padding: 13px;
+  }
 }
 
 .loginArea .loginCard .headingside {
@@ -1140,16 +1153,34 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside h2 {
+    font-size: 18px;
+  }
+}
+
 .loginArea .loginCard .headingside h6 {
   color: #0c0114;
   font-size: 18px;
   font-weight: 600;
 }
 
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside h6 {
+    font-size: 16px;
+  }
+}
+
 .loginArea .loginCard .headingside p {
   color: #0c0114;
   font-size: 16px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside p {
+    font-size: 14px;
+  }
 }
 
 .loginArea .loginCard .headingside p a {
@@ -1198,6 +1229,12 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside .option {
+    font-size: 12px;
+  }
+}
+
 .loginArea .loginCard .headingside .option::before {
   content: "";
   position: absolute;
@@ -1207,6 +1244,12 @@
   background-color: #a6a6a6;
 }
 
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside .option::before {
+    width: 110px;
+  }
+}
+
 .loginArea .loginCard .headingside .option::after {
   content: "";
   position: absolute;
@@ -1214,6 +1257,12 @@
   width: 213px;
   height: 1px;
   background-color: #a6a6a6;
+}
+
+@media screen and (max-width: 500px) {
+  .loginArea .loginCard .headingside .option::after {
+    width: 110px;
+  }
 }
 
 .loginArea .loginCard .myForm .form-label {

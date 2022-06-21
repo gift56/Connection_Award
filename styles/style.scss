@@ -534,12 +534,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width:500px) {
+            width: 100%;
+        }
     }
     .loginCard {
         background-color: $textWhite;
         width: 547px;
         height: 655px;
         padding: 2rem;
+        @media screen and (max-width:500px) {
+            width: 661px;
+            padding: 13px;
+        }
         .headingside {
             display: flex;
             flex-direction: column;
@@ -549,16 +556,25 @@
                 font-size: 24px;
                 font-weight: 600;
                 margin-bottom: 20px;
+                @media screen and (max-width:500px) {
+                    font-size: 18px;
+                }
             }
             h6 {
                 color: $colortext;
                 font-size: 18px;
                 font-weight: 600;
+                @media screen and (max-width:500px) {
+                    font-size: 16px;
+                }
             }
             p {
                 color: $colortext;
                 font-size: 16px;
                 font-weight: 600;
+                @media screen and (max-width:500px) {
+                    font-size: 14px;
+                }
                 a {
                     color: $titleColor;
                 }
@@ -573,6 +589,7 @@
                 border: 1px solid $firstBg;
                 background-color: $firstBg;
                 margin-bottom: 15px;
+               
                 &:focus {
                     box-shadow: none;
                     outline: none;
@@ -588,6 +605,9 @@
                 align-items: center;
                 justify-content: center;
                 margin-bottom: 20px;
+                @media screen and (max-width:500px) {
+                    font-size: 12px;
+                }
                 &::before {
                     content: "";
                     position: absolute;
@@ -595,6 +615,9 @@
                     width: 213px;
                     height: 1px;
                     background-color: $Orcolor;
+                    @media screen and (max-width:500px) {
+                        width: 110px;
+                    }
                 }
                 &::after {
                     content: "";
@@ -603,6 +626,9 @@
                     width: 213px;
                     height: 1px;
                     background-color: $Orcolor;
+                    @media screen and (max-width:500px) {
+                        width: 110px;
+                    }
                 }
             }
         }
