@@ -27,40 +27,35 @@
                     </a>
                     <span class="option">OR</span>
                 </div>
-                <form class="row g-3 needs-validation myForm" id="Signupform" novalidate>
+                <form class="row g-3  myForm" id="Signupform">
                     <div class="col-md-6">
                         <label for="Firstname" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="Firstname" required>
-                        <div class="valid-feedback">
-                            Looks good!
+                        <input type="text" class="form-control" id="Firstname">
+                        <div id="validFeedback">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <label for="lastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastName" required>
-                        <div class="valid-feedback">
-                            Looks good!
+                        <input type="text" class="form-control" id="lastName">
+                        <div id="validFeedbackL">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email" required>
-                        <div class="valid-feedback">
-                            Looks good!
+                        <input type="email" class="form-control" id="email">
+                        <div id="validfeedbackE">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="phoneNumber" required>
-                        <div class="valid-feedback">
-                            Looks good!
+                        <input type="number" class="form-control" id="phoneNumber">
+                        <div id="validFeedbackPh">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <label for="password" class="form-label">Set Password</label>
-                        <input type="password" class="form-control" id="password" required>
-                        <div class="valid-feedback">
-                            Looks good!
+                        <input type="password" class="form-control" id="password">
+                        <div id="validFeedbackpass">
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -77,7 +72,8 @@
                     </div>
                     <div class='form_check'>
                         <label>
-                            By registering you agree to Techtrend Africa's <span>Terms of Use</span> and<span> Privacy Policy</span>
+                            By registering you agree to Techtrend Africa's <span>Terms of Use</span> and<span> Privacy
+                                Policy</span>
                         </label>
                     </div>
                     <div class="col-12 signupBtn">
@@ -88,6 +84,7 @@
         </div>
     </div>
 
+    <script src="/pages/validationPage/SignUp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
