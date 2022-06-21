@@ -1081,11 +1081,17 @@
             font-size: 32px;
             font-weight: 600;
             margin-bottom: 10px;
+            @media screen and (max-width: 500px) {
+                font-size: 25px;
+            }
         }
         p {
             color: $titlePage;
             font-size: 20px;
             font-weight: 300;
+            @media screen and (max-width: 500px) {
+                font-size: 17px;
+            }
         }
     }
     .celebrityItems {
@@ -1093,6 +1099,12 @@
         gap: 5rem;
         grid-template-columns: auto auto auto auto;
         margin-bottom: 40px;
+        @media screen and (max-width: 998px) {
+            grid-template-columns: auto auto;
+        }
+        @media screen and (max-width: 500px) {
+            grid-template-columns: auto;
+        }
         .celebrityItem {
             display: flex;
             align-items: center;
@@ -1104,13 +1116,19 @@
             }
             h4 {
                 color: $colortext;
-                font-size: 16px;
+                font-size: 18px;
                 font-weight: 600;
+                @media screen and (max-width: 1110px) {
+                    font-size: 16px;
+                }
             }
             p {
                 color: $loginColor;
-                font-size: 13px;
+                font-size: 14px;
                 font-weight: 600;
+                @media screen and (max-width: 1110px) {
+                    font-size: 12px;
+                }
             }
         }
     }

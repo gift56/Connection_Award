@@ -1970,10 +1970,22 @@
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  .techiesArea .techiesTitle h2 {
+    font-size: 25px;
+  }
+}
+
 .techiesArea .techiesTitle p {
   color: #808080;
   font-size: 20px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  .techiesArea .techiesTitle p {
+    font-size: 17px;
+  }
 }
 
 .techiesArea .celebrityItems {
@@ -1983,6 +1995,20 @@
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 998px) {
+  .techiesArea .celebrityItems {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techiesArea .celebrityItems {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
 }
 
 .techiesArea .celebrityItems .celebrityItem {
@@ -2008,13 +2034,25 @@
 
 .techiesArea .celebrityItems .celebrityItem h4 {
   color: #0c0114;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1110px) {
+  .techiesArea .celebrityItems .celebrityItem h4 {
+    font-size: 16px;
+  }
 }
 
 .techiesArea .celebrityItems .celebrityItem p {
   color: #3e0563;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1110px) {
+  .techiesArea .celebrityItems .celebrityItem p {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
