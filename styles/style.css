@@ -3220,7 +3220,7 @@
   }
 }
 
-.futureItems {
+.pastItems {
   -ms-grid-columns: auto auto auto !important;
       grid-template-columns: auto auto auto !important;
   -webkit-box-pack: justify !important;
@@ -3230,7 +3230,7 @@
 }
 
 @media screen and (max-width: 998px) {
-  .futureItems {
+  .pastItems {
     -ms-grid-columns: auto !important;
         grid-template-columns: auto !important;
     row-gap: 3rem !important;
