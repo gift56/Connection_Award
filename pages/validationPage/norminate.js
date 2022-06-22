@@ -53,9 +53,16 @@ const norminateValiditity = () => {
     }
     return validName && validFace && validTwitt && validLink && validInsta
 }
+const openModal = () => {
+    voteM.classList.add('disp-f');
+}
+const closeModal = () => {
+    voteM.classList.remove('disp-f')
+}
+closeitem.addEventListener('click', closeModal);
 
 function norminateValidation() {
-    let confirmPages = '/index.html';
+    let confirmPages = submitBtn.addEventListener('click', openModal);
 
-    norminateValiditity() ? window.location.assign(confirmPages) : " "
+    norminateValiditity() ? confirmPages : " "
 }
