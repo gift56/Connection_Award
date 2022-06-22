@@ -32,7 +32,7 @@ let checkValidity = () => {
         errP.innerHTML = 'Password field cannot be blank';
         errP.style.color = 'red';
     }
-    else if (password.value <= 5) {
+    else if (password.value.length < 5) {
         password.classList.add('error');
         password.classList.remove('success');
         errP.innerHTML = 'Password must be greater than five characters';
