@@ -1289,15 +1289,30 @@
     background-image: url("/pages/img/backgroundBoost.png");
     background-repeat: repeat;
     background-size: cover;
+    max-height: fit-content;
+    @media screen and (max-width: 623px) {
+        background: transparent;
+    }
     .boostContainer {
         padding: 40px 0;
-    }
-    .boostArea {
-        background-color: $textWhite;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        @media screen and (max-width: 633px) {
+         padding-top: 0px;
+        }
+    }
+    .boostArea {
+        background-color: $textWhite;
+        width: 1200px;
+        max-height: 681px;
+        padding: 2rem;
+        @media screen and (max-width: 1120px) {
+            max-height: 1171px;
+        }
+        @media screen and (max-width: 632px) {
+            max-height: 1832px;
+        }
         .boost_title {
             margin: 30px 0;
             text-align: center;
@@ -1307,6 +1322,185 @@
             p {
                 font-size: 19px;
                 color: $titlePage;
+            }
+        }
+        .boostingRanks {
+            width: 98%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            @media screen and (max-width: 1120px) {
+                width: 100%;
+                gap: 7px;
+            }
+            @media screen and (max-width: 632px) {
+                justify-content: center;
+            }
+            .items {
+                background-image: url("/pages/img/fourthfive.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: right;
+                width: 249px;
+                height: 323px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                @media screen and (max-width: 1228px) {
+                    width: 230px;
+                }
+                @media screen and (max-width: 998px) {
+                    width: 249px;
+                }
+                h1 {
+                    font-size: 50px;
+                    color: $textWhite;
+                    transform: translateY(-60px);
+                }
+                p {
+                    font-size: 16px;
+                    color: $textWhite;
+                    transform: translateY(-72px);
+                    font-weight: 500;
+                }
+                h3 {
+                    color: $textWhite;
+                    font-size: 40px;
+                    font-weight: 400;
+                }
+                .Buy {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    transform: translateY(29px);
+                    a {
+                        background-color: $textWhite;
+                        color: $colortext;
+                        padding: 12px 35px;
+                    }
+                }
+            }
+        }
+        .ranktwenty {
+            transform: translateY(162px);
+            @media screen and (max-width: 1120px) {
+                margin-bottom: 189px;
+            }
+            @media screen and (max-width: 633px) {
+                height: 366px !important;
+                margin-bottom: 161px;
+            }
+            @media screen and (max-width: 632px) {
+                transform: unset;
+                margin-bottom: 40px;
+            }
+        }
+        .rankfourtyFive {
+            height: 360px !important;
+            transform: translateY(122px);
+            @media screen and (max-width: 633px) {
+                height: 366px !important;
+                margin-bottom: 161px;
+            }
+            @media screen and (max-width: 632px) {
+                transform: unset;
+                margin-bottom: 40px;
+            }
+            h1 {
+                transform: translateY(-60px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-60px);
+                }
+            }
+            p {
+                transform: translateY(-70px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-72px);
+                }
+            }
+            h3 {
+                transform: translateY(50px);
+                @media screen and (max-width: 632px) {
+                    transform: unset;
+                }
+            }
+            .Buy {
+                transform: translateY(40px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(39px);
+                }
+            }
+        }
+        .rankseventyFive {
+            height: 420px !important;
+            transform: translateY(62px);
+            @media screen and (max-width: 633px) {
+                height: 366px !important;
+                margin-bottom: 40px;
+            }
+            @media screen and (max-width: 632px) {
+                transform: unset;
+            }
+            h1 {
+                transform: translateY(-90px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-65px) !important;
+                }
+            }
+            p {
+                transform: translateY(-100px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-72px) !important;
+                }
+            }
+            h3 {
+                transform: translateY(80px);
+                @media screen and (max-width: 632px) {
+                    transform: unset !important;
+                }
+            }
+            .Buy {
+                transform: translateY(70px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(39px) !important;
+                }
+            }
+        }
+        .rankoneHundredFive {
+            height: 480px !important;
+            @media screen and (max-width: 633px) {
+                height: 366px !important;
+                margin-bottom: 60px;
+            }
+            @media screen and (max-width: 632px) {
+                transform: unset;
+            }
+            h1 {
+                transform: translateY(-120px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-60px) !important;
+                }
+            }
+            p {
+                transform: translateY(-129px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(-72px) !important;
+                }
+            }
+            h3 {
+                transform: translateY(90px);
+                @media screen and (max-width: 632px) {
+                    transform: unset !important;
+                }
+            }
+            .Buy {
+                transform: translateY(100px) !important;
+                @media screen and (max-width: 632px) {
+                    transform: translateY(39px) !important;
+                }
             }
         }
     }
