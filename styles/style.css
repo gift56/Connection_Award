@@ -3256,6 +3256,10 @@
   }
 }
 
+.Nominatecard {
+  border-radius: 4px !important;
+}
+
 .Norminate p {
   color: #808080 !important;
 }

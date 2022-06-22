@@ -1535,22 +1535,25 @@
         row-gap: 3rem !important;
     }
 }
+.Nominatecard {
+    border-radius: 4px !important;
+}
 .Norminate {
     p {
         color: $titlePage !important;
     }
 }
 .awradCheck {
-    label{
+    label {
         font-size: 12px !important;
         font-weight: 600;
         width: 100% !important;
-        a{
+        a {
             font-weight: 700;
             color: $loginColor;
         }
     }
-    .awardL{
+    .awardL {
         font-size: 14px !important;
     }
 }
