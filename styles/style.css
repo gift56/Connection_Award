@@ -3259,4 +3259,24 @@
 .Norminate p {
   color: #808080 !important;
 }
+
+.awradCheck label {
+  font-size: 12px !important;
+  font-weight: 600;
+  width: 100% !important;
+}
+
+.awradCheck label a {
+  font-weight: 700;
+  color: #3e0563;
+}
+
+.awradCheck .awardL {
+  font-size: 14px !important;
+}
+
+.awardForm .form-label {
+  font-size: 14px;
+  color: #0c0114;
+}
 /*# sourceMappingURL=style.css.map */

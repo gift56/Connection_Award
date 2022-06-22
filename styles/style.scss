@@ -1267,7 +1267,7 @@
                 color: $colortext;
                 margin-bottom: 30px;
             }
-            a{
+            a {
                 width: 100%;
             }
             .futureBtn {
@@ -1322,7 +1322,7 @@
             text-align: center;
             h2 {
                 color: $colortext;
-                @media screen and (max-width:420px) {
+                @media screen and (max-width: 420px) {
                     font-size: 20px;
                     margin-bottom: 10px;
                 }
@@ -1330,7 +1330,7 @@
             p {
                 font-size: 19px;
                 color: $titlePage;
-                @media screen and (max-width:420px) {
+                @media screen and (max-width: 420px) {
                     font-size: 15px;
                 }
             }
@@ -1535,8 +1535,28 @@
         row-gap: 3rem !important;
     }
 }
-.Norminate{
-p{
-    color: $titlePage !important;
+.Norminate {
+    p {
+        color: $titlePage !important;
+    }
 }
+.awradCheck {
+    label{
+        font-size: 12px !important;
+        font-weight: 600;
+        width: 100% !important;
+        a{
+            font-weight: 700;
+            color: $loginColor;
+        }
+    }
+    .awardL{
+        font-size: 14px !important;
+    }
+}
+.awardForm {
+    .form-label {
+        font-size: 14px;
+        color: $colortext;
+    }
 }
