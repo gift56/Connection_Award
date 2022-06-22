@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norminate Candidate</title>
+    <link rel="icon" href="/styles/CAImgs/Awardlogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <div class="signupArea">
+        <div class="container form_content">
+            <div class="sigupCard">
+                <div class="headingside Norminate">
+                    <h2 style="margin-bottom: 0;">Nominate a candidate for
+                    </h2>
+                    <h2 style="margin-bottom: 10px;">The Connected Award</h2>
+                    <p>Enter The Nominee’s Information below</p>
+                </div>
+                <form class="row g-3  myForm" id="Signupform">
+                    <div class="col-md-6">
+                        <label for="Firstname" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="Firstname">
+                        <div id="validFeedback">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName">
+                        <div id="validFeedbackL">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email">
+                        <div id="validfeedbackE">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phoneNumber">
+                        <div id="validFeedbackPh">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="password" class="form-label">Set Password</label>
+                        <input type="password" class="form-control" id="password">
+                        <div id="validFeedbackpass">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select class="form-select" id="gender" required>
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Custom</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class='form_check'>
+                        <label>
+                            By registering you agree to Techtrend Africa's <span>Terms of Use</span> and<span> Privacy
+                                Policy</span>
+                        </label>
+                    </div>
+                    <div class="col-12 signupBtn">
+                        <button class="btn" type="submit">Create my account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/pages/validationPage/SignUp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

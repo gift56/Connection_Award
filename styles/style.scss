@@ -1267,6 +1267,9 @@
                 color: $colortext;
                 margin-bottom: 30px;
             }
+            a{
+                width: 100%;
+            }
             .futureBtn {
                 width: 100%;
                 display: flex;
@@ -1531,4 +1534,9 @@
         grid-template-columns: auto !important;
         row-gap: 3rem !important;
     }
+}
+.Norminate{
+p{
+    color: $titlePage !important;
+}
 }
