@@ -13,3 +13,6 @@ const closeModal = () => {
 }
 closeitem.addEventListener('click', closeModal);
 vote1.addEventListener('click', openModal);
+vote2.addEventListener('click', openModal);
+vote3.addEventListener('click', openModal);
+vote4.addEventListener('click', openModal);
