@@ -3209,4 +3209,31 @@
             transform: translateY(39px) !important;
   }
 }
+
+.pastTitle p {
+  color: #808080 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .pastTitle p {
+    font-size: 13px !important;
+  }
+}
+
+.futureItems {
+  -ms-grid-columns: auto auto auto !important;
+      grid-template-columns: auto auto auto !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  margin-bottom: 30px !important;
+}
+
+@media screen and (max-width: 998px) {
+  .futureItems {
+    -ms-grid-columns: auto !important;
+        grid-template-columns: auto !important;
+    row-gap: 3rem !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
