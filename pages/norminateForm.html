@@ -23,39 +23,9 @@
                     <p>Enter The Nominee’s Information below</p>
                 </div>
                 <form class="row g-3  myForm" id="Signupform">
-                    <div class="col-md-6">
-                        <label for="Firstname" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="Firstname">
-                        <div id="validFeedback">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="lastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastName">
-                        <div id="validFeedbackL">
-                        </div>
-                    </div>
                     <div class="col-md-12">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="email">
-                        <div id="validfeedbackE">
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="number" class="form-control" id="phoneNumber">
-                        <div id="validFeedbackPh">
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <label for="password" class="form-label">Set Password</label>
-                        <input type="password" class="form-control" id="password">
-                        <div id="validFeedbackpass">
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <label for="gender" class="form-label">Gender</label>
-                        <select class="form-select" id="gender" required>
+                        <label for="award" class="form-label">Award Category <span>*</span></label>
+                        <select class="form-select" id="award" required>
                             <option></option>
                             <option>Male</option>
                             <option>Female</option>
@@ -65,14 +35,66 @@
                             Please select a valid state.
                         </div>
                     </div>
+                    <div class="col-md-12">
+                        <label for="Firstname" class="form-label">Full name <span>*</span></label>
+                        <input type="text" class="form-control" id="Firstname">
+                        <div id="validFeedback">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="award" class="form-label">Award Category <span>*</span></label>
+                        <select class="form-select" id="award" required>
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Custom</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="socialArea">
+                        <p style="font-weight: 600;">Social Media Links</p>
+                    </div>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-md-4">
+                            <img src="/pages/img/linkedin.png" alt="" class="img-fluid">
+                            <label for="award" class="form-label">Linkedin <span>*</span></label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" style="width: 102%;" id="Firstname">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/pages/img/instagram.png" alt="" class="img-fluid">
+                            <label for="award" class="form-label">Instagram <span>*</span></label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" style="width: 102%;" id="award">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/pages/img/twitter.png" alt="" class="img-fluid">
+                            <label for="award" class="form-label">Twitter <span>*</span></label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" style="width: 102%;" id="award">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/pages/img/facebook.png" alt="" class="img-fluid">
+                            <label for="award" class="form-label">Facebook <span>*</span></label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" style="width: 102%;" id="award">
+                        </div>
+                    </div>
                     <div class='form_check'>
                         <label>
-                            By registering you agree to Techtrend Africa's <span>Terms of Use</span> and<span> Privacy
-                                Policy</span>
+                            The First-Ever Tech Personality Awards Recognizing Promising and Exceptional African Talents in all Technological Fields. The West African Countries include 16 countries of Benin, Burkina Faso, Gambia, Ghana, Guinea, Guinea-Bissau, Ivory Coast, Liberia, Mali, Mauritania, Niger, Nigeria, Senegal, Sierra Leone, and Togo
+
+                            For questions, partnerships & enquiries, send us a mail via connectedawards@gmail.com
                         </label>
                     </div>
                     <div class="col-12 signupBtn">
-                        <button class="btn" type="submit">Create my account</button>
+                        <button class="btn" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
