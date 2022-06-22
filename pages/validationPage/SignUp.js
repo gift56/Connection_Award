@@ -44,7 +44,7 @@ let signUpValiditity = () => {
     }
     if (password.value == '') {
         password.classList.add('error');
-        validFeedbackpass.innerHTML = 'Password field cnnot be blank';
+        validFeedbackpass.innerHTML = 'Password field cannot be blank';
         validFeedbackpass.style.color = 'red';
     }
     else if (password.value.length < 5) {
