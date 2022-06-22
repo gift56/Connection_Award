@@ -2876,9 +2876,22 @@
   color: #0c0114;
 }
 
+@media screen and (max-width: 420px) {
+  .boostMain .boostArea .boost_title h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 .boostMain .boostArea .boost_title p {
   font-size: 19px;
   color: #808080;
+}
+
+@media screen and (max-width: 420px) {
+  .boostMain .boostArea .boost_title p {
+    font-size: 15px;
+  }
 }
 
 .boostMain .boostArea .boostingRanks {
