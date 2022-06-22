@@ -2175,6 +2175,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 35px;
 }
 
 .donateArea .donate_title {
