@@ -7,7 +7,7 @@ donateForm.addEventListener('submit', (e) => {
 });
 
 const norminateValiditity = () => {
-    let [validName, validLink, validInsta, validTwitt, validFace] = [false, false, false, false]
+    let [validName, validLink, validInsta, validTwitt, validFace] = [false, false, false, false,false]
 
     if (Fullname.value === '') {
         Fullname.classList.add('error');
