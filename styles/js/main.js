@@ -5,6 +5,11 @@ const showMenu = () => {
 changeicon = (icon) => icon.classList.toggle('fa-times')
 Icons.addEventListener('click', showMenu);
 
+const showLogOut = () => {
+    logMenu.classList.toggle('disp-f');
+}
+Account.addEventListener('click', showLogOut);
+
 const openModal = () => {
     voteM.classList.add('disp-f');
 }
@@ -16,3 +21,13 @@ vote1.addEventListener('click', openModal);
 vote2.addEventListener('click', openModal);
 vote3.addEventListener('click', openModal);
 vote4.addEventListener('click', openModal);
+
+const increasingNumber = () => {
+    if (figureOne.innerHTML == 1) {
+        return figureOne++
+    }
+}
+
+
+
+incrementFigure.addEventListener('click', increasingNumber);

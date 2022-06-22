@@ -691,13 +691,14 @@
 
 .dropdowmMenu {
   position: relative;
+  display: none;
 }
 
 .dropdowmMenu .logOut {
   position: absolute;
   top: 39px;
   right: 0;
-  background-color: rebeccapurple;
+  background-color: #3e0563;
   width: 19vw;
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
@@ -714,20 +715,62 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 144px;
+  height: 184px;
   z-index: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+@media screen and (max-width: 998px) {
+  .dropdowmMenu .logOut {
+    top: -13px;
+    width: 74vw;
+    -webkit-transform: translateX(-48px);
+            transform: translateX(-48px);
+  }
 }
 
 .dropdowmMenu .logOut .logA {
   color: #ffffff;
   margin-bottom: 20px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #bababa;
   padding: 16px;
   width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px !important;
 }
 
 .dropdowmMenu .logOut .logA span {
   color: #ffffff;
+}
+
+@media screen and (max-width: 1129px) {
+  .dropdowmMenu .logOut .logA span {
+    font-size: 15px !important;
+  }
+}
+
+.dropdowmMenu .logOut .logged {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 20px;
+  color: #ffffff;
+  width: 100%;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #bababa;
+  padding: 16px;
+  padding-top: 0px;
 }
 
 .header {

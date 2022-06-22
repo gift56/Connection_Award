@@ -236,28 +236,54 @@
 }
 .dropdowmMenu {
     position: relative;
+    display: none;
     .logOut {
         position: absolute;
         top: 39px;
         right: 0;
-        background-color: rebeccapurple;
+        background-color: $loginColor;
         width: 19vw;
         transform: translateX(10px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 144px;
+        height: 184px;
         z-index: 1;
+        transition: all 300ms ease;
+        @media screen and (max-width: 998px) {
+            top: -13px;
+            width: 74vw;
+            transform: translateX(-48px);
+        }
         .logA {
-            color: #ffffff;
+            color: $textWhite;
             margin-bottom: 20px;
-            border-bottom: 1px solid;
+            border-bottom: 1px solid $inputPlaceholder;
             padding: 16px;
             width: 100%;
+            justify-content: center;
+            gap: 5px !important;
             span {
                 color: $textWhite;
+                @media screen and (max-width: 1129px) {
+                    font-size: 15px !important;
+                }
             }
+        }
+        .logged {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            padding-left: 20px;
+            color: $textWhite;
+            width: 100%;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border-bottom: 1px solid $inputPlaceholder;
+            padding: 16px;
+            padding-top: 0px;
         }
     }
 }
